@@ -1,0 +1,30 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+
+# Ignore Docker files
+*.log
+*.pid
+
+# Ignore node modules
+node_modules/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Kubernetes config
+*.yaml
+*.yml
+kubeconfig
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+*.swp
