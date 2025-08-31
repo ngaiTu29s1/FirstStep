@@ -43,4 +43,8 @@ app.post('/store-goal', (req, res) => {
   res.redirect('/');
 });
 
-app.listen(80);
+const PORT = process.env.PORT || 82;
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT}`);
+});
+
