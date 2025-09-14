@@ -6,3 +6,5 @@ His first Aww
 
 
 Bye bye Tingee
+
+Wasteful
